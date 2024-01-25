@@ -32,7 +32,7 @@ export default function Projects() {
           "Express.js",
           "MongoDB",
           "JSON Web Token",
-          "Cookie-Parser",
+          "Cookie Parser",
           "Bcrypt",
           "Nodemon",
           "Dotenv",
