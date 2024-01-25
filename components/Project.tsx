@@ -17,7 +17,7 @@ export default function Project({
   link,
 }: ProjectProps) {
   return (
-    <>
+    <div className="flex flex-col gap-3">
       <h3 className="font-bold flex items-center gap-2 hover:underline hover:text-slate-800 hover:cursor-pointer">
         <a href={link} target="_blank">
           {title}
@@ -38,6 +38,6 @@ export default function Project({
           ))}
         </div>
       )}
-    </>
+    </div>
   );
 }

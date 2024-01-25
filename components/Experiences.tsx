@@ -12,6 +12,7 @@ export default function Experiences() {
         implementing CSS troubleshooting techniques for a seamless and improved
         user experience across a diverse user base."
         link="https://heartset.netlify.app/"
+        github="https://github.com/sskiles66/HeartSet"
       />
       <Experience
         date="Apr - Jun 2022"
@@ -23,7 +24,6 @@ export default function Experiences() {
         fostering teamwork, we aimed to address challenges efficiently and innovatively, ensuring a supportive
         atmosphere for learners to thrive. This experience reflects my commitment to not only guiding individual
         progress but also contributing to a cohesive and dynamic team dedicated to the enhancement of language learning."
-        link=""
       />
     </>
   );
