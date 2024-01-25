@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
+import { LinkIcon } from "@heroicons/react/24/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 interface ProjectProps {
   title: string;
@@ -7,6 +9,7 @@ interface ProjectProps {
   img: string;
   link: string;
   tools: string[];
+  github: string;
 }
 
 export default function Project({
@@ -15,15 +18,28 @@ export default function Project({
   img,
   tools,
   link,
+  github,
 }: ProjectProps) {
   return (
     <div className="flex flex-col gap-3">
-      <h3 className="font-bold flex items-center gap-2 hover:underline hover:text-slate-800 hover:cursor-pointer">
-        <a href={link} target="_blank">
+      <div className="flex flex-col gap-2 font-bold">
+        <a
+          href={link}
+          target="_blank"
+          className="flex items-center gap-2 hover:underline"
+        >
           {title}
+          <LinkIcon className="w-5 h-5" />
         </a>
-        <ArrowUpRightIcon className="w-5 h-5" />
-      </h3>
+        {github && (
+          <a href={github} target="_blank">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="w-5 h-5 hover:cursor-pointer"
+            />
+          </a>
+        )}
+      </div>
       <p>{desc}</p>
       <Image src={img} alt={title} width={200} height={100} />
       {tools && (

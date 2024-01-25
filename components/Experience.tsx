@@ -30,7 +30,6 @@ export default function Experience({
         {role} &middot; {title}
         {link && <LinkIcon className="w-5 h-5" />}
       </a>
-
       {github && (
         <a href={github} target="_blank">
           <FontAwesomeIcon

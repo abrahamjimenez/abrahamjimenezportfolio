@@ -18,10 +18,13 @@ export default function Projects() {
         img="/book-of-mormon.webp"
         tools={["HTML", "CSS", "JavaScript", "FetchAPI", "Web Speech API"]}
         link="https://book-of-mormon-english-learning.netlify.app/"
+        github="https://github.com/abrahamjimenez/book-of-mormon-english-app"
       />
       <Project
         title="Abraham’s Shop"
-        desc="Successfully led the development of Abraham's Shop, an innovative e-commerce site utilizing the MERN stack, featuring seamless PayPal integration, robust admin capabilities, and secure routes to showcase proactive initiative and dynamic web development skills."
+        desc="Developmed Abraham's Shop, an innovative e-commerce site utilizing the MERN stack, featuring seamless
+        PayPal integration, robust admin capabilities, and secure routes to showcase proactive initiative and dynamic
+        web development skills."
         img="/abrahams-shop.webp"
         tools={[
           "HTML",
@@ -39,6 +42,7 @@ export default function Projects() {
           "Concurrently",
         ]}
         link="https://proshop-ku28.onrender.com"
+        github="https://github.com/abrahamjimenez/proshop"
       />
     </>
   );
