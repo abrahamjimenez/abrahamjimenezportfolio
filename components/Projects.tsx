@@ -1,21 +1,28 @@
-export default function Projects() {
+import Project from "@/components/Project";
+
+interface Tools {
+  tools?: string[];
+}
+
+export default function Projects({ tools }: Tools) {
   return (
     <>
       <h2 className="text-2xl">Projects</h2>
-      <h3 className="font-bold">Book of Mormon English Learning App</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at
-        dolores eius labore maiores natus nesciunt totam, veritatis? Eaque error
-        est nemo quibusdam! Fugiat necessitatibus neque sequi velit voluptates.
-        Tempore.
-      </p>
-      <img src="https://placehold.co/350x200" alt="" />
-      <div className="flex gap-2">
-        <p className="border-2 border-blue-100 rounded">React</p>
-        <p className="border-2 border-blue-100 rounded">Express</p>
-        <p className="border-2 border-blue-100 rounded">Book of Mormon API</p>
-        <p className="border-2 border-blue-100 rounded">Netlify</p>
-      </div>
+      <Project
+        title="Book of Mormon English Learning App"
+        desc="Spearheaded the creation of a personalized project aimed at enhancing
+        the client's English proficiency. Leveraging my skills in web
+        development, I meticulously crafted the project using a combination of
+        HTML, CSS, and JavaScript. This initiative involved integrating an API
+        to provide a dynamic and engaging learning experience tailored to their
+        language improvement goals. Through this endeavor, I demonstrated my
+        ability to not only develop functional and user-friendly web
+        applications but also to contribute to personalized learning solutions
+        for language enhancement."
+        img="/book-of-mormon.webp"
+        tools={["HTML", "CSS", "JavaScript", "FetchAPI", "Web Speech API"]}
+        link="https://book-of-mormon-english-learning.netlify.app/"
+      />
     </>
   );
 }
