@@ -19,6 +19,27 @@ export default function Projects() {
         tools={["HTML", "CSS", "JavaScript", "FetchAPI", "Web Speech API"]}
         link="https://book-of-mormon-english-learning.netlify.app/"
       />
+      <Project
+        title="Abraham’s Shop"
+        desc="Successfully led the development of Abraham's Shop, an innovative e-commerce site utilizing the MERN stack, featuring seamless PayPal integration, robust admin capabilities, and secure routes to showcase proactive initiative and dynamic web development skills."
+        img="/abrahams-shop.webp"
+        tools={[
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React.js",
+          "Redux",
+          "Express.js",
+          "MongoDB",
+          "JSON Web Token",
+          "Cookie-Parser",
+          "Bcrypt",
+          "Nodemon",
+          "Dotenv",
+          "Concurrently",
+        ]}
+        link="https://proshop-ku28.onrender.com"
+      />
     </>
   );
 }
