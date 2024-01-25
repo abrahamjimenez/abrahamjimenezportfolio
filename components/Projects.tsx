@@ -1,10 +1,6 @@
 import Project from "@/components/Project";
 
-interface Tools {
-  tools?: string[];
-}
-
-export default function Projects({ tools }: Tools) {
+export default function Projects() {
   return (
     <>
       <h2 className="text-2xl">Projects</h2>

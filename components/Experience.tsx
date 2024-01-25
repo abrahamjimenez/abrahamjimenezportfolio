@@ -1,25 +1,32 @@
-import { LinkIcon } from "@heroicons/react/24/solid";
+import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
-export default function Experience() {
+interface ExperienceProps {
+  date: string;
+  role: string;
+  title: string;
+  desc: string;
+  link: string;
+}
+
+export default function Experience({
+  date,
+  role,
+  title,
+  desc,
+  link,
+}: ExperienceProps) {
   return (
     <>
-      <h2 className="text-2xl">Experience</h2>
-      <p>Jan - Apr 2023</p>
-      <p>Frontend Developer &middot; HeartSet</p>
-      <p>
-        Engaged in team-based problem-solving to address intricate DOM bugs,
-        implementing CSS troubleshooting techniques for a seamless and improved
-        user experience across a diverse user base.
-      </p>
-      {/* TODO turn into icon component */}
+      <p className="text-xs">{date}</p>
       <a
-        href="https://heartset.netlify.app/"
+        href={link}
         target="_blank"
-        className="flex gap-2 items-center"
+        className="font-bold flex items-center gap-2 hover:underline hover:text-slate-800 hover:cursor-pointer"
       >
-        <LinkIcon className="h-5 w-5" />
-        HeartSet
+        {role} &middot; {title}
+        <ArrowUpRightIcon className="w-5 h-5" />
       </a>
+      <p>{desc}</p>
     </>
   );
 }
