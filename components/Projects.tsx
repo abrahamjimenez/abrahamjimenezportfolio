@@ -3,8 +3,8 @@ import Project from "@/components/Project";
 export default function Projects() {
   return (
     <div>
-      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-900/75 backdrop-blur">
-        <h2 className="text-2xl pl-3">Projects</h2>
+      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
+        <h2 className="text-2xl pl-3 font-sans">Projects</h2>
       </div>
       <Project
         title="Book of Mormon English Learning App"

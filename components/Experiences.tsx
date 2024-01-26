@@ -3,8 +3,8 @@ import Experience from "@/components/Experience";
 export default function Experiences() {
   return (
     <div className="flex flex-col gap-6">
-      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-900/75 backdrop-blur">
-        <h2 className="text-2xl pl-3">Experience</h2>
+      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
+        <h2 className="text-2xl pl-3 font-sans">Experience</h2>
       </div>
       <Experience
         date="Jan - Apr 2023"
@@ -41,7 +41,7 @@ export default function Experiences() {
         role="Bootstrap Team"
         title="Data Science Society"
         desc="In my journey, I delved into the realm of data analysis using R, where I meticulously studied the language to interpret and visualize complex data sets, transforming numbers into insightful plots and graphs. When faced with conflicts in code, I applied a problem-solving approach grounded in thorough research and collaborative efforts. These experiences have honed my analytical skills and ability to navigate challenges, enriching my proficiency in handling diverse aspects of data analysis and coding intricacies."
-        tools={["R", "RStudio"]}
+        tools={["R", "R Studio"]}
       />
       <Experience
         date="May - Nov 2022"

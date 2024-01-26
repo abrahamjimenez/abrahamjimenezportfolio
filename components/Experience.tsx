@@ -27,7 +27,7 @@ export default function Experience({
       <a
         href={link}
         target="_blank"
-        className="font-bold flex items-center gap-2 hover:underline"
+        className="font-bold flex items-center gap-2 hover:underline font-sans tracking-wider"
       >
         {role} &middot; {title}
         {link && <LinkIcon className="w-5 h-5" />}
@@ -46,7 +46,7 @@ export default function Experience({
           {tools.map((tool: string) => (
             <p
               key={tool}
-              className="border-blue-100 rounded-xl p-1.5 text-blue-600 bg-blue-100 text-xs"
+              className="border-blue-100 rounded-xl p-1.5 bg-blue-300 text-xs"
             >
               {tool}
             </p>

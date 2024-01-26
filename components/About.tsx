@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <div>
-      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-900/75 backdrop-blur">
-        <h2 className="text-2xl pl-3">About</h2>
+      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
+        <h2 className="text-2xl pl-3 font-sans">About</h2>
       </div>
       <div className="flex flex-col gap-4">
         <p>
