@@ -9,6 +9,7 @@ interface ExperienceProps {
   desc: string;
   link?: string;
   github?: string;
+  tools?: string[];
 }
 
 export default function Experience({
@@ -18,6 +19,7 @@ export default function Experience({
   desc,
   link,
   github,
+  tools,
 }: ExperienceProps) {
   return (
     <div className="flex flex-col gap-2">
@@ -39,6 +41,18 @@ export default function Experience({
         </a>
       )}
       <p>{desc}</p>
+      {tools && (
+        <div className="flex gap-2 flex-wrap">
+          {tools.map((tool: string) => (
+            <p
+              key={tool}
+              className="border-blue-100 rounded-xl p-1.5 text-blue-600 bg-blue-100 text-xs"
+            >
+              {tool}
+            </p>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

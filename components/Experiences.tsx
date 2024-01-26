@@ -11,6 +11,16 @@ export default function Experiences() {
         desc="Engaged in team-based problem-solving to address intricate DOM bugs, implementing CSS troubleshooting techniques for a seamless and improved user experience across a diverse user base."
         link="https://heartset.netlify.app/"
         github="https://github.com/sskiles66/HeartSet"
+        tools={[
+          "HTML",
+          "SCSS",
+          "JavaScript",
+          "Adobe Illustrator",
+          "Adobe Photoshop",
+          "C++",
+          "C#",
+          "Unity",
+        ]}
       />
       <Experience
         date="Jan - Apr 2023"
@@ -29,6 +39,7 @@ export default function Experiences() {
         role="Bootstrap Team"
         title="Data Science Society"
         desc="In my journey, I delved into the realm of data analysis using R, where I meticulously studied the language to interpret and visualize complex data sets, transforming numbers into insightful plots and graphs. When faced with conflicts in code, I applied a problem-solving approach grounded in thorough research and collaborative efforts. These experiences have honed my analytical skills and ability to navigate challenges, enriching my proficiency in handling diverse aspects of data analysis and coding intricacies."
+        tools={["R", "RStudio"]}
       />
       <Experience
         date="May - Nov 2022"
