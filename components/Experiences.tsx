@@ -8,7 +8,7 @@ export default function Experiences() {
         date="Jan - Apr 2023"
         role="Frontend Developer"
         title="HeartSet"
-        desc="Engaged in team-based problem-solving to address intricate DOM bugs, implementing CSS troubleshooting techniques for a seamless and improved user experience across a diverse user base."
+        desc="Achieving 2nd place in the BYU-I 2023 Hackathon, I spearheaded a collaborative effort to tackle intricate DOM bugs, employing advanced CSS troubleshooting techniques. This initiative resulted in a seamless and optimized user experience, catering to a diverse audience. My role not only showcased my proficiency in web development but also emphasized my commitment to delivering innovative solutions through effective teamwork."
         link="https://heartset.netlify.app/"
         github="https://github.com/sskiles66/HeartSet"
         tools={[
