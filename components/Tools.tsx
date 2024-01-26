@@ -10,6 +10,8 @@ export default function Tools() {
     "GraphQL",
     "Next.js",
     "TypeScript",
+    "R",
+    "R Studio",
     "Git/Github",
     "API",
     "Bootstrap",
