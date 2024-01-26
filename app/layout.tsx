@@ -1,7 +1,6 @@
 import type { ReactNode } from "react";
 import { Inter, JetBrains_Mono, Playfair_Display } from "next/font/google";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import "./globals.css";
 
 interface LayoutProps {
@@ -34,9 +33,6 @@ export default function RootLayout({ children }: LayoutProps) {
           <Header />
         </header>
         <main>{children}</main>
-        <footer className="border-t-2 mt-4">
-          <Footer />
-        </footer>
       </body>
     </html>
   );
