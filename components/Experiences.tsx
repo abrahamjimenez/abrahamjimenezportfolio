@@ -2,8 +2,10 @@ import Experience from "@/components/Experience";
 
 export default function Experiences() {
   return (
-    <>
-      <h2 className="text-2xl">Experience</h2>
+    <div className="flex flex-col gap-6">
+      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-900/75 backdrop-blur">
+        <h2 className="text-2xl pl-3">Experience</h2>
+      </div>
       <Experience
         date="Jan - Apr 2023"
         role="Frontend Developer"
@@ -47,6 +49,6 @@ export default function Experiences() {
         title="Doorzza"
         desc="Led Doorzza's pizza-making team, overseeing food preparation and delivery. Analyzed order-processing software, supported team members, and managed kitchen operations. Mentored delivery drivers to enhance productivity. Fostered a positive team environment for 3-4 days a week, 5 hours each day. Ensured prompt food delivery in under 45 minutes, contributing to customer satisfaction."
       />
-    </>
+    </div>
   );
 }

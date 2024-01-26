@@ -1,7 +1,9 @@
 export default function About() {
   return (
-    <>
-      <h2 className="text-2xl">About</h2>
+    <div>
+      <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-900/75 backdrop-blur">
+        <h2 className="text-2xl pl-3">About</h2>
+      </div>
       <div className="flex flex-col gap-4">
         <p>
           I am pursuing a Bachelor&apos;s degree in Web Design and Development
@@ -15,6 +17,6 @@ export default function About() {
           collaboratively.
         </p>
       </div>
-    </>
+    </div>
   );
 }
