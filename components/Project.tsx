@@ -26,16 +26,16 @@ export default function Project({
         <a
           href={link}
           target="_blank"
-          className="flex items-center gap-2 hover:underline font-sans tracking-wider"
+          className="font-bold flex items-center gap-2 hover:text-blue-600 font-sans tracking-wider group"
         >
           {title}
-          <LinkIcon className="w-5 h-5" />
+          <LinkIcon className="w-5 h-5 transition-transform group-hover:-scale-125" />
         </a>
         {github && (
           <a href={github} target="_blank">
             <FontAwesomeIcon
               icon={faGithub}
-              className="w-5 h-5 hover:cursor-pointer"
+              className="w-5 h-5 hover:cursor-pointer hover:scale-150 hover:text-blue-500"
             />
           </a>
         )}
