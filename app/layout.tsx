@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps) {
       lang="en"
       className={`${playfairDisplay.variable} ${jetBrainsMono.variable} ${inter.variable}`}
     >
-      <body className="px-3 py-4 font-mono">
+      <body className="px-3 py-4 font-mono bg-blue-50/75">
         <header>
           <Header />
         </header>
