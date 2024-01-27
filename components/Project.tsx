@@ -51,7 +51,13 @@ export default function Project({
         )}
       </div>
       <p>{desc}</p>
-      <Image src={img} alt={title} width={200} height={100} />
+      <Image
+        src={img}
+        alt={title}
+        width={200}
+        height={100}
+        className={"border border-blue-800/75"}
+      />
       {tools && (
         <div className="flex gap-2 flex-wrap">
           {tools.map((tool, index) => (

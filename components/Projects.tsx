@@ -36,6 +36,25 @@ export default function Projects() {
         link="https://proshop-ku28.onrender.com"
         github="https://github.com/abrahamjimenez/proshop"
       />
+      <Project
+        title="Portfolio Website"
+        desc="Portfolio website of Abraham Jimenez."
+        img="/abraham-jimenez-portfolio.webp"
+        tools={[
+          "Next.js",
+          "TypeScript",
+          "Tailwind",
+          "CSS",
+          "Vercel",
+          "Prettier",
+          "ESLint",
+          "Concurrently",
+          "FontAwesome",
+          "Heroicons",
+        ]}
+        link="https://abrahamjimenezportfolio.vercel.app/"
+        github="https://github.com/abrahamjimenez/abrahamjimenezportfolio"
+      />
     </div>
   );
 }
