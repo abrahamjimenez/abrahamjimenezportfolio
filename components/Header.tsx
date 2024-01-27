@@ -28,12 +28,12 @@ export default function Header() {
         <a href="https://github.com/abrahamjimenez" target="_blank">
           <FontAwesomeIcon
             icon={faGithub}
-            className="w-5 h-5 hover:cursor-pointer hover:scale-150 hover:text-blue-500"
+            className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
           />
         </a>
         <a
           href="https://www.linkedin.com/in/abrahamjimenezromo/"
-          className="w-5 h-5 hover:cursor-pointer hover:scale-150 hover:text-blue-500"
+          className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
           target="_blank"
         >
           <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />

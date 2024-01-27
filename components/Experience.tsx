@@ -46,7 +46,7 @@ export default function Experience({
         <a href={github} target="_blank">
           <FontAwesomeIcon
             icon={faGithub}
-            className="w-5 h-5 hover:cursor-pointer hover:scale-150 hover:text-blue-500"
+            className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
           />
         </a>
       )}
