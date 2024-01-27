@@ -1,7 +1,53 @@
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Playfair_Display } from "next/font/google";
 import Header from "@/components/Header";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Abraham Jimenez | Web full-stack developer",
+  description:
+    "Here is the portfolio of Abraham Jimenez who is pursuing a Bachelor's degree in Web Design and Development from Brigham Young University-Idaho.",
+  authors: [
+    { name: "Abraham Jimenez" },
+    { url: "https://abrahamjimenezportfolio.vercel.app/" },
+  ],
+  creator: "Abraham Jimenez",
+  publisher: "Abraham Jimenez",
+  keywords: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind",
+    "CSS",
+    "Vercel",
+    "Prettier",
+    "ESLint",
+    "Concurrently",
+    "FontAwesome",
+    "Heroicons",
+  ],
+  twitter: {
+    card: "summary_large_image",
+    title: "Abraham Jimenez | Web full-stack developer",
+    description: "Portfolio of Abraham Jimenez",
+    site: "https://abrahamjimenezportfolio.vercel.app/",
+    creator: "Abraham Jimenez",
+    images:
+      "https://abrahamjimenezportfolio.vercel.app/abraham-jimenez-portfolio.webp",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://abrahamjimenezportfolio.vercel.app/",
+    title: "Abraham Jimenez | Web full-stack developer",
+    description: "Portfolio of Abraham Jimenez",
+    siteName: "Abraham Jimenez Portfolio",
+    images: [
+      {
+        url: "https://abrahamjimenezportfolio.vercel.app/abraham-jimenez-portfolio.webp",
+      },
+    ],
+  },
+};
 
 interface LayoutProps {
   children: ReactNode;
