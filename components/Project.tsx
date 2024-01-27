@@ -63,7 +63,7 @@ export default function Project({
           {tools.map((tool, index) => (
             <p
               key={tool}
-              className={`rounded-xl p-1.5 bg-blue-300 text-xs lg:hover:scale-125 lg:hover:-translate-y-1 lg:hover:translate-x-1 lg:hover:bg-blue-400 ${index % 2 === 0 ? "lg:hover:-rotate-6" : "lg:hover:rotate-6"} lg:hover:border-blue-800 lg:hover:border-2 border-2 border-blue-300 lg:hover:font-semibold`}
+              className={`transition-transform rounded-xl p-1.5 bg-blue-300 text-xs lg:hover:scale-125 lg:hover:-translate-y-1 lg:hover:translate-x-1 lg:hover:bg-blue-400 ${index % 2 === 0 ? "lg:hover:-rotate-6" : "lg:hover:rotate-6"} lg:hover:border-blue-800 lg:hover:border-2 border-2 border-blue-300 lg:hover:font-semibold`}
             >
               {tool}
             </p>
