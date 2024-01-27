@@ -23,14 +23,24 @@ export default function Project({
   return (
     <div className="flex flex-col gap-3">
       <div className="flex flex-col gap-2 font-bold pt-4">
-        <a
-          href={link}
-          target="_blank"
-          className="font-bold flex items-center gap-2 hover:text-blue-600 font-sans tracking-wider group"
-        >
-          {title}
-          <LinkIcon className="w-5 h-5 transition-transform group-hover:-scale-125" />
-        </a>
+        {link ? (
+          <h3>
+            <a
+              href={link}
+              target="_blank"
+              className="font-bold flex items-center gap-2 hover:text-blue-600 font-sans tracking-wider group"
+            >
+              {title}
+              {link && (
+                <LinkIcon className="w-5 h-5 transition-transform group-hover:-scale-125" />
+              )}
+            </a>
+          </h3>
+        ) : (
+          <h3 className="font-bold flex items-center gap-2 font-sans tracking-wider group">
+            {title}
+          </h3>
+        )}
         {github && (
           <a href={github} target="_blank">
             <FontAwesomeIcon
