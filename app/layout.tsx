@@ -28,11 +28,12 @@ export default function RootLayout({ children }: LayoutProps) {
       lang="en"
       className={`${playfairDisplay.variable} ${jetBrainsMono.variable} ${inter.variable}`}
     >
-      <body className="px-3 py-4 font-mono bg-blue-50/75 selection:text-white selection:bg-blue-700/75">
-        <header>
+      <body className="max-w-screen-xl px-3 py-4 font-mono bg-blue-50/75 selection:text-white selection:bg-blue-700/75
+      lg:flex mx-auto lg:gap-3 lg:justify-center lg:p-14 lg:py-0">
+        <header className={"lg:w-1/2 lg:sticky lg:top-0 lg:max-h-screen lg:py-32"}>
           <Header />
         </header>
-        <main>{children}</main>
+        <main className={"lg:w-1/2"}>{children}</main>
       </body>
     </html>
   );
