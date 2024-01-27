@@ -53,10 +53,10 @@ export default function Experience({
       <p>{desc}</p>
       {tools && (
         <div className="flex gap-2 flex-wrap">
-          {tools.map((tool: string) => (
+          {tools.map((tool, index) => (
             <p
               key={tool}
-              className="border-blue-100 rounded-xl p-1.5 bg-blue-300 text-xs"
+              className={`rounded-xl p-1.5 bg-blue-300 text-xs hover:scale-125 hover:-translate-y-1 hover:translate-x-1 hover:bg-blue-400 ${index % 2 === 0 ? "hover:-rotate-6" : "hover:rotate-6"} hover:border-blue-800 hover:border-2 border-2 border-blue-300 hover:font-semibold`}
             >
               {tool}
             </p>
