@@ -37,15 +37,11 @@ export default function Tools() {
       <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
         <h2 className="text-2xl pl-3 font-sans">Tools & Skills</h2>
       </div>
-
-      {/*<div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">*/}
-      {/*</div>*/}
-
       <div className="flex flex-wrap gap-2">
-        {tools.map((tool) => (
+        {tools.map((tool, index) => (
           <p
             key={tool}
-            className="border-blue-100 rounded-xl p-1.5 bg-blue-300 text-xs"
+            className={`rounded-xl p-1.5 bg-blue-300 text-xs hover:scale-125 hover:-translate-y-1 hover:translate-x-1 hover:bg-blue-400 ${index % 2 === 0 ? "hover:-rotate-6" : "hover:rotate-6"} hover:border-blue-800 hover:border-2 border-2 border-blue-300 hover:font-semibold`}
           >
             {tool}
           </p>
