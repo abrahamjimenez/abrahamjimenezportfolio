@@ -2,7 +2,7 @@ import Project from "@/components/Project";
 
 export default function Projects() {
   return (
-    <div>
+    <div id={"projects"}>
       <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
         <h2 className="text-2xl pl-3 font-sans">Projects</h2>
       </div>

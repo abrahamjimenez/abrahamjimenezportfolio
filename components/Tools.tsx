@@ -33,7 +33,7 @@ export default function Tools() {
   ];
 
   return (
-    <div className="flex flex-col gap-2">
+    <div id={"tools&skills"} className="flex flex-col gap-2">
       <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
         <h2 className="text-2xl pl-3 font-sans">Tools & Skills</h2>
       </div>

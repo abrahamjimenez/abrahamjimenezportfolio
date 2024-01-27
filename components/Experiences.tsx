@@ -2,7 +2,7 @@ import Experience from "@/components/Experience";
 
 export default function Experiences() {
   return (
-    <div className="flex flex-col gap-6">
+    <div id={"experience"} className="flex flex-col gap-6">
       <div className="sticky top-0 z-20 -mx-3 py-2 mb-4 bg-blue-400/50 backdrop-blur">
         <h2 className="text-2xl pl-3 font-sans">Experience</h2>
       </div>
