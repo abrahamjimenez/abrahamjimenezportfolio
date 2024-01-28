@@ -25,7 +25,11 @@ export default function Header() {
         </a>
       ))}
       <div className="flex gap-4 pb-4">
-        <a href="https://github.com/abrahamjimenez" target="_blank">
+        <a
+          href="https://github.com/abrahamjimenez"
+          target="_blank"
+          aria-label={"Github"}
+        >
           <FontAwesomeIcon
             icon={faGithub}
             className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
@@ -35,6 +39,7 @@ export default function Header() {
           href="https://www.linkedin.com/in/abrahamjimenezromo/"
           className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
           target="_blank"
+          aria-label={"LinkedIn"}
         >
           <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
         </a>

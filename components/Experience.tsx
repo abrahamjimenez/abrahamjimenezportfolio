@@ -43,7 +43,7 @@ export default function Experience({
         </h3>
       )}
       {github && (
-        <a href={github} target="_blank">
+        <a href={github} target="_blank" aria-label={"Github"}>
           <FontAwesomeIcon
             icon={faGithub}
             className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
