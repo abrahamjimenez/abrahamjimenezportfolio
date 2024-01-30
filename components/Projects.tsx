@@ -57,7 +57,7 @@ export default function Projects() {
       />
       <Project
         title="Next Reviews"
-        desc="Practice on Next.js and Tailwind with Strapi CMS"
+        desc="Engaged in hands-on practice with Next.js and Tailwind CSS, integrating seamlessly with Strapi CMS. Demonstrated proficiency technologies and tools. This experience showcases my ability to effectively utilize a modern tech stack for building efficient, responsive, and visually appealing web applications."
         img="/next-reviews.webp"
         tools={[
           "Next.js",
