@@ -84,7 +84,7 @@ export default function RootLayout({ children }: LayoutProps) {
         >
           <Header />
         </header>
-        <main className={"lg:w-1/2"}>{children}</main>
+        <main className={"lg:w-1/2 pb-6"}>{children}</main>
       </body>
     </html>
   );

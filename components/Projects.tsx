@@ -7,14 +7,6 @@ export default function Projects() {
         <h2 className="text-2xl pl-3 font-sans">Projects</h2>
       </div>
       <Project
-        title="Book of Mormon English Learning App"
-        desc="Spearheaded the creation of a personalized project aimed at enhancing the client's English proficiency. Leveraging my skills in web development, I meticulously crafted the project using a combination of HTML, CSS, and JavaScript. This initiative involved integrating an API to provide a dynamic and engaging learning experience tailored to their language improvement goals. Through this endeavor, I demonstrated my ability to not only develop functional and user-friendly web applications but also to contribute to personalized learning solutions for language enhancement."
-        img="/book-of-mormon.webp"
-        tools={["HTML", "CSS", "JavaScript", "FetchAPI", "Web Speech API"]}
-        link="https://book-of-mormon-english-learning.netlify.app/"
-        github="https://github.com/abrahamjimenez/book-of-mormon-english-app"
-      />
-      <Project
         title="Abraham’s Shop"
         desc="Developmed Abraham's Shop, an innovative e-commerce site utilizing the MERN stack, featuring seamless PayPal integration, robust admin capabilities, and secure routes to showcase proactive initiative and dynamic web development skills."
         img="/abrahams-shop.webp"
@@ -37,6 +29,14 @@ export default function Projects() {
         github="https://github.com/abrahamjimenez/proshop"
       />
       <Project
+        title="Book of Mormon English Learning App"
+        desc="Spearheaded the creation of a personalized project aimed at enhancing the client's English proficiency. Leveraging my skills in web development, I meticulously crafted the project using a combination of HTML, CSS, and JavaScript. This initiative involved integrating an API to provide a dynamic and engaging learning experience tailored to their language improvement goals. Through this endeavor, I demonstrated my ability to not only develop functional and user-friendly web applications but also to contribute to personalized learning solutions for language enhancement."
+        img="/book-of-mormon.webp"
+        tools={["HTML", "CSS", "JavaScript", "FetchAPI", "Web Speech API"]}
+        link="https://book-of-mormon-english-learning.netlify.app/"
+        github="https://github.com/abrahamjimenez/book-of-mormon-english-app"
+      />
+      <Project
         title="Portfolio Website"
         desc="Portfolio website of Abraham Jimenez."
         img="/abraham-jimenez-portfolio.webp"
@@ -54,6 +54,25 @@ export default function Projects() {
         ]}
         link="https://abrahamjimenezportfolio.vercel.app/"
         github="https://github.com/abrahamjimenez/abrahamjimenezportfolio"
+      />
+      <Project
+        title="Next Reviews"
+        desc="Practice on Next.js and Tailwind with Strapi CMS"
+        img="/next-reviews.webp"
+        tools={[
+          "Next.js",
+          "Tailwind CSS",
+          "TypeScript",
+          "React.js",
+          "Heroicons",
+          "Node.js",
+          "ESLint",
+          "Prettier",
+          "Strapi CMS",
+          "Concurrently",
+        ]}
+        link="https://next-reviews-8txyqtew2-abrahamjimenezs-projects.vercel.app/"
+        github="https://github.com/abrahamjimenez/next-reviews"
       />
     </div>
   );
