@@ -25,6 +25,29 @@ export default function Experiences() {
         ]}
       />
       <Experience
+        date="Jan 2023 - Present"
+        role="Vice President"
+        title="Web Design & Development Society"
+        desc="In my role as Vice President of the Web Design & Development Society, I have been dedicated to fostering a collaborative learning environment. I've taken on the responsibility of teaching and sharing knowledge on cutting-edge technologies and tools. Through workshops, mentoring sessions, and collaborative projects, I've contributed to the skill development of society members, empowering them with a versatile set of tools for web design and development. This experience has not only enhanced my leadership and communication skills but has also allowed me to make a lasting impact on the growth and success of the Web Design & Development Society."
+        tools={[
+          "Next",
+          "Tailwind",
+          "React",
+          "Node",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SCSS",
+          "Git/Github",
+          "API",
+          "Figma",
+          "Wireframe",
+          "Adobe Illustrator",
+          "Adobe Photoshop",
+        ]}
+      />
+      <Experience
         date="Jan - Apr 2023"
         role="Instructor"
         title="Mathnasium"
