@@ -37,42 +37,22 @@ export default function Projects() {
         github="https://github.com/abrahamjimenez/book-of-mormon-english-app"
       />
       <Project
-        title="Portfolio Website"
-        desc="Portfolio website of Abraham Jimenez."
-        img="/abraham-jimenez-portfolio.webp"
+        title="Joyeria La Perla"
+        desc="Currently working on a e-commerce website with the latest technology trends."
+        img="/joyeria-la-perla.webp"
         tools={[
           "Next.js",
-          "TypeScript",
-          "Tailwind",
-          "CSS",
-          "Vercel",
-          "Prettier",
-          "ESLint",
-          "Concurrently",
-          "FontAwesome",
-          "Heroicons",
-        ]}
-        link="https://abrahamjimenezportfolio.vercel.app/"
-        github="https://github.com/abrahamjimenez/abrahamjimenezportfolio"
-      />
-      <Project
-        title="Next Reviews"
-        desc="Engaged in hands-on practice with Next.js and Tailwind CSS, integrating seamlessly with Strapi CMS. Demonstrated proficiency technologies and tools. This experience showcases my ability to effectively utilize a modern tech stack for building efficient, responsive, and visually appealing web applications."
-        img="/next-reviews.webp"
-        tools={[
-          "Next.js",
+            "Docker",
           "Tailwind CSS",
           "TypeScript",
-          "React.js",
           "Heroicons",
-          "Node.js",
+          "Font Awesome Icons",
           "ESLint",
           "Prettier",
-          "Strapi CMS",
           "Concurrently",
         ]}
-        link="https://next-reviews-8txyqtew2-abrahamjimenezs-projects.vercel.app/"
-        github="https://github.com/abrahamjimenez/next-reviews"
+        link="https://joyeria-la-perla.vercel.app/"
+        bitbucket="https://bitbucket.org/joyeria-la-perla/joyeria-la-perla/"
       />
     </div>
   );

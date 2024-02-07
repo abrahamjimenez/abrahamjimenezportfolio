@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { LinkIcon } from "@heroicons/react/24/solid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faBitbucket } from "@fortawesome/free-brands-svg-icons";
 
 interface ProjectProps {
   title: string;
@@ -9,7 +9,8 @@ interface ProjectProps {
   img: string;
   link: string;
   tools: string[];
-  github: string;
+  github?: string;
+  bitbucket?: string;
 }
 
 export default function Project({
@@ -19,6 +20,7 @@ export default function Project({
   tools,
   link,
   github,
+bitbucket
 }: ProjectProps) {
   return (
     <div className="flex flex-col gap-3">
@@ -49,6 +51,14 @@ export default function Project({
             />
           </a>
         )}
+          {bitbucket && (
+              <a href={bitbucket} target="_blank" aria-label={"BitBucket"}>
+                  <FontAwesomeIcon
+                      icon={faBitbucket}
+                      className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
+                  />
+              </a>
+          )}
       </div>
       <p>{desc}</p>
       <Image
