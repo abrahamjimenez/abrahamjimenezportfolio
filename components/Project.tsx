@@ -20,7 +20,7 @@ export default function Project({
   tools,
   link,
   github,
-bitbucket
+  bitbucket,
 }: ProjectProps) {
   return (
     <div className="flex flex-col gap-3">
@@ -51,14 +51,14 @@ bitbucket
             />
           </a>
         )}
-          {bitbucket && (
-              <a href={bitbucket} target="_blank" aria-label={"BitBucket"}>
-                  <FontAwesomeIcon
-                      icon={faBitbucket}
-                      className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
-                  />
-              </a>
-          )}
+        {bitbucket && (
+          <a href={bitbucket} target="_blank" aria-label={"BitBucket"}>
+            <FontAwesomeIcon
+              icon={faBitbucket}
+              className="w-5 h-5 transition-transform hover:cursor-pointer hover:scale-150 hover:text-blue-500"
+            />
+          </a>
+        )}
       </div>
       <p>{desc}</p>
       <Image

@@ -42,7 +42,7 @@ export default function Experiences() {
           "Git/Github",
           "API",
           "Figma",
-          "Wireframe",
+          "Wireframing",
           "Adobe Illustrator",
           "Adobe Photoshop",
         ]}
