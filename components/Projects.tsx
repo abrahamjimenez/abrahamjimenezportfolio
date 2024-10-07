@@ -36,24 +36,6 @@ export default function Projects() {
         link="https://book-of-mormon-english-learning.netlify.app/"
         github="https://github.com/abrahamjimenez/book-of-mormon-english-app"
       />
-      <Project
-        title="Joyeria La Perla"
-        desc="Currently working on a e-commerce website with the latest technology trends."
-        img="/joyeria-la-perla.webp"
-        tools={[
-          "Next.js",
-          "Docker",
-          "Tailwind CSS",
-          "TypeScript",
-          "Heroicons",
-          "Font Awesome Icons",
-          "ESLint",
-          "Prettier",
-          "Concurrently",
-        ]}
-        link="https://joyeria-la-perla.vercel.app/"
-        bitbucket="https://bitbucket.org/joyeria-la-perla/joyeria-la-perla/"
-      />
     </div>
   );
 }
